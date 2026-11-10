@@ -180,7 +180,7 @@ export default function Hero() {
                 </div>
                 <div>
                   <div className="text-[10px] text-slate-400 uppercase tracking-wider font-mono">Core Stack</div>
-                  <div className="text-xs font-bold text-indigo-200">Python • React • C</div>
+                  <div className="text-xs font-bold text-indigo-200">Python • C++</div>
                 </div>
               </motion.div>
             </motion.div>
@@ -285,7 +285,7 @@ export default function Hero() {
             >
               <div className="flex items-center gap-1.5">
                 <Code2 className="w-4 h-4 text-sky-400" />
-                <span>Python • C • React</span>
+                <span>Python • C++</span>
               </div>
               <span className="text-white/20">•</span>
               <div className="flex items-center gap-1.5">

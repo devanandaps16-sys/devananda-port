@@ -76,7 +76,7 @@ export const aboutData = {
     status: "First Year (Semester 1 & 2)",
     coursework: [
       "Problem Solving & Programming in Python",
-      "C Programming Fundamentals",
+      "C++ Programming Fundamentals",
       "Discrete Mathematics & Calculus",
       "Digital Logic Design",
       "Basics of Electrical & Electronics Engineering",
@@ -105,7 +105,6 @@ export const skillsData = [
     skills: [
       { name: "Python", level: 90, icon: "Code2", tag: "Primary" },
       { name: "C++", level: 85, icon: "Cpu", tag: "Core" },
-      { name: "C", level: 80, icon: "Cpu", tag: "Academic" },
     ],
   },
 ];
