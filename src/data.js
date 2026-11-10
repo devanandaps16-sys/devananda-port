@@ -254,16 +254,6 @@ export const journeyData = [
 
 export const blogData = [
   {
-    id: "gradient-descent-guide",
-    title: "Demystifying Gradient Descent: An Intuitive Guide for First-Year Engineers",
-    excerpt:
-      "How visualizing a hiker walking down a foggy hill transformed my understanding of loss functions and optimization in machine learning.",
-    date: "Feb 2025",
-    readTime: "5 min read",
-    category: "Machine Learning",
-    tags: ["Calculus", "Optimization", "AI Fundamentals"],
-  },
-  {
     id: "ktu-cse-ai-reflections",
     title: "Why I Chose CSE with AI Specialization in KTU: My First Semester Reflections",
     excerpt:
@@ -272,16 +262,6 @@ export const blogData = [
     readTime: "4 min read",
     category: "Campus & Career",
     tags: ["KTU", "College Life", "Computer Science"],
-  },
-  {
-    id: "modern-react-portfolio",
-    title: "Building Modern Reactive Portfolios with React, Tailwind & Lenis",
-    excerpt:
-      "Key takeaways from designing an editorial portfolio inspired by the Elina theme, combining inertial scrolling with Framer Motion micro-interactions.",
-    date: "Nov 2024",
-    readTime: "6 min read",
-    category: "Web Development",
-    tags: ["React", "UI/UX", "Tailwind CSS", "Animations"],
   },
 ];
 

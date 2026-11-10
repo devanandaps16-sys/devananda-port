@@ -23,8 +23,8 @@ export default function Blog() {
         </p>
       </div>
 
-      {/* 3 Blog Cards Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      {/* Blog Cards Container */}
+      <div className="max-w-2xl mx-auto">
         {blogData.map((post, idx) => (
           <motion.article
             key={post.id}
