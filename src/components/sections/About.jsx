@@ -37,8 +37,8 @@ export default function About() {
         </p>
       </motion.div>
 
-      {/* 4 Animated Stat Counters Grid */}
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mb-16 sm:mb-20">
+      {/* 3 Highlight Cards Grid */}
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 mb-16 sm:mb-20">
         {statsData.map((stat, idx) => (
           <motion.div
             key={stat.label}

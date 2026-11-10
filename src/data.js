@@ -56,12 +56,6 @@ export const statsData = [
     label: "Academic Year",
     description: "2026 — 2030",
   },
-  {
-    value: 500,
-    suffix: "+",
-    label: "Code Commits",
-    description: "GitHub contributions & competitive coding",
-  },
 ];
 
 export const aboutData = {
