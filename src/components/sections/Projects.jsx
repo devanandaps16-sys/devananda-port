@@ -13,16 +13,13 @@ export default function Projects() {
   return (
     <section id="projects" className="py-20 sm:py-28 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
       {/* Section Header */}
-      <div className="text-center max-w-3xl mx-auto mb-16 sm:mb-20">
+      <div className="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
         <span className="text-xs uppercase font-bold tracking-widest text-sky-600 dark:text-sky-400 bg-sky-50 dark:bg-sky-950/60 border border-sky-200 dark:border-sky-800/60 px-4 py-1.5 rounded-full inline-block mb-3">
           Featured Creations
         </span>
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-navy-900 dark:text-white tracking-tight">
           Projects &amp; Experiments
         </h2>
-        <p className="mt-4 text-base sm:text-lg text-slate-600 dark:text-slate-300">
-          Applied artificial intelligence, algorithm implementations, and real-world tools designed for students.
-        </p>
       </div>
 
       {/* Projects Grid with 3D Tilt */}
