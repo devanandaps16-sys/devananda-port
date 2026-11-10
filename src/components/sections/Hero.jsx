@@ -251,13 +251,13 @@ export default function Hero() {
               transition={{ duration: 0.7, delay: 0.65 }}
               className="flex flex-wrap items-center gap-4 sm:gap-5"
             >
-              {/* Primary Pill Button: "View my work" */}
+              {/* Primary Pill Button: "Explore Portfolio" */}
               <MagneticButton strength={0.3}>
                 <a
-                  href="#projects"
+                  href="#about"
                   className="inline-flex items-center justify-center px-7 sm:px-9 py-3.5 sm:py-4 rounded-full bg-ice-200 hover:bg-white text-navy-900 font-bold text-sm sm:text-base tracking-wide transition-all shadow-lg hover:shadow-cyan-400/30 active:scale-95"
                 >
-                  <span>View my work</span>
+                  <span>Explore Portfolio</span>
                   <ArrowDown className="w-4 h-4 ml-2 animate-bounce" />
                 </a>
               </MagneticButton>
