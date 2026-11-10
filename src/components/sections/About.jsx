@@ -48,13 +48,15 @@ export default function About() {
             transition={{ delay: idx * 0.1, duration: 0.6 }}
             className="p-6 sm:p-8 rounded-2xl bg-white dark:bg-slate-900/90 border border-slate-200/80 dark:border-slate-800 shadow-sm hover:shadow-md transition-all group hover:-translate-y-1"
           >
-            <div className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-navy-900 dark:text-sky-400 mb-2">
-              <StatCounter value={stat.value} suffix={stat.suffix} />
-            </div>
-            <div className="font-semibold text-slate-800 dark:text-slate-200 text-sm sm:text-base">
+            {stat.value !== null ? (
+              <div className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-navy-900 dark:text-sky-400 mb-2">
+                <StatCounter value={stat.value} suffix={stat.suffix} />
+              </div>
+            ) : null}
+            <div className={`font-semibold text-slate-800 dark:text-slate-200 ${stat.value !== null ? 'text-sm sm:text-base' : 'text-lg sm:text-xl text-navy-900 dark:text-sky-400 mb-1'}`}>
               {stat.label}
             </div>
-            <p className="text-xs text-slate-500 dark:text-slate-400 mt-1 leading-snug">
+            <p className={`text-slate-500 dark:text-slate-400 mt-1 leading-snug ${stat.value !== null ? 'text-xs' : 'text-sm font-medium'}`}>
               {stat.description}
             </p>
           </motion.div>

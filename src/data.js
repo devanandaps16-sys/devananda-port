@@ -39,22 +39,22 @@ export const navLinks = [
 
 export const statsData = [
   {
-    value: 12,
-    suffix: "+",
-    label: "Projects Built",
-    description: "Across AI/ML, Python algorithms & Web",
+    value: null,
+    suffix: "",
+    label: "B.Tech CSE(AI) Student",
+    description: "Thejus Engineering College, Thrissur (KTU)",
   },
   {
-    value: 15,
-    suffix: "+",
-    label: "Technologies Learned",
-    description: "Languages, libraries & developer tools",
+    value: null,
+    suffix: "",
+    label: "Languages I Know",
+    description: "Python, C++",
   },
   {
-    value: 4,
-    suffix: "+",
-    label: "Certifications",
-    description: "AI, Python & Computer Science fundamentals",
+    value: null,
+    suffix: "",
+    label: "Academic Year",
+    description: "2026 — 2030",
   },
   {
     value: 500,
