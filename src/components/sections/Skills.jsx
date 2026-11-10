@@ -72,31 +72,33 @@ export default function Skills() {
           Skills &amp; Competencies
         </h2>
         <p className="mt-4 text-base sm:text-lg text-slate-600 dark:text-slate-300">
-          A balance of low-level algorithms, machine learning workflows, and reactive frontend engineering.
+          Core programming languages and foundations.
         </p>
 
-        {/* Filter Tabs */}
-        <div className="mt-8 flex flex-wrap items-center justify-center gap-2">
-          {categories.map((cat) => (
-            <button
-              key={cat}
-              onClick={() => setActiveTab(cat)}
-              className={`px-4 py-2 rounded-full text-xs sm:text-sm font-semibold transition-all duration-200 ${
-                activeTab === cat
-                  ? 'bg-navy-900 text-white dark:bg-sky-500 dark:text-slate-950 shadow-md scale-105'
-                  : 'bg-white dark:bg-slate-900 text-slate-600 dark:text-slate-400 hover:text-navy-900 dark:hover:text-white border border-slate-200/80 dark:border-slate-800'
-              }`}
-            >
-              {cat}
-            </button>
-          ))}
-        </div>
+        {/* Filter Tabs (only if more than 1 category) */}
+        {categories.length > 2 && (
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-2">
+            {categories.map((cat) => (
+              <button
+                key={cat}
+                onClick={() => setActiveTab(cat)}
+                className={`px-4 py-2 rounded-full text-xs sm:text-sm font-semibold transition-all duration-200 ${
+                  activeTab === cat
+                    ? 'bg-navy-900 text-white dark:bg-sky-500 dark:text-slate-950 shadow-md scale-105'
+                    : 'bg-white dark:bg-slate-900 text-slate-600 dark:text-slate-400 hover:text-navy-900 dark:hover:text-white border border-slate-200/80 dark:border-slate-800'
+                }`}
+              >
+                {cat}
+              </button>
+            ))}
+          </div>
+        )}
       </div>
 
       {/* Skills Grouped Cards Grid */}
       <motion.div
         layout
-        className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8"
+        className={skillsData.length === 1 ? "max-w-2xl mx-auto" : "grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8"}
       >
         <AnimatePresence>
           {filteredCategories.map((group) => (

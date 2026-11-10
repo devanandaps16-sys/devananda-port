@@ -101,46 +101,11 @@ export const aboutData = {
 export const skillsData = [
   {
     category: "Languages",
-    description: "Core programming languages for algorithms & applications",
+    description: "Core programming languages for algorithms & problem solving",
     skills: [
       { name: "Python", level: 90, icon: "Code2", tag: "Primary" },
-      { name: "C", level: 85, icon: "Cpu", tag: "Academic" },
-      { name: "Java", level: 75, icon: "Coffee", tag: "OOP" },
-      { name: "JavaScript (ES6+)", level: 80, icon: "FileCode", tag: "Web" },
-      { name: "SQL", level: 70, icon: "Database", tag: "Databases" },
-    ],
-  },
-  {
-    category: "AI & Machine Learning",
-    description: "Data analysis, scientific computation & ML libraries",
-    skills: [
-      { name: "NumPy", level: 85, icon: "Binary", tag: "Math" },
-      { name: "Pandas", level: 85, icon: "Sheet", tag: "Data Wrangling" },
-      { name: "scikit-learn", level: 80, icon: "Brain", tag: "ML Models" },
-      { name: "Matplotlib / Seaborn", level: 80, icon: "BarChart3", tag: "Visualization" },
-      { name: "TensorFlow Basics", level: 65, icon: "Network", tag: "Deep Learning" },
-    ],
-  },
-  {
-    category: "Web Development",
-    description: "Responsive, accessible and modern web interfaces",
-    skills: [
-      { name: "React", level: 82, icon: "Atom", tag: "Frontend" },
-      { name: "Tailwind CSS", level: 90, icon: "Palette", tag: "Styling" },
-      { name: "HTML5 & Semantic Web", level: 95, icon: "Layout", tag: "Markup" },
-      { name: "CSS3 / Modern Layouts", level: 88, icon: "Sparkles", tag: "UI" },
-      { name: "Vite", level: 85, icon: "Zap", tag: "Bundler" },
-    ],
-  },
-  {
-    category: "Tools & Platforms",
-    description: "Productivity, version control and developer environments",
-    skills: [
-      { name: "Git & GitHub", level: 88, icon: "GitBranch", tag: "VCS" },
-      { name: "Visual Studio Code", level: 95, icon: "Terminal", tag: "IDE" },
-      { name: "Google Colab & Jupyter", level: 90, icon: "BookOpen", tag: "Notebooks" },
-      { name: "Linux / Bash Basics", level: 75, icon: "Shield", tag: "Environment" },
-      { name: "Figma", level: 70, icon: "PenTool", tag: "Prototyping" },
+      { name: "C++", level: 85, icon: "Cpu", tag: "Core" },
+      { name: "C", level: 80, icon: "Cpu", tag: "Academic" },
     ],
   },
 ];
@@ -215,39 +180,21 @@ export const journeyData = [
     badge: "Milestone",
   },
   {
-    year: "2024",
-    period: "Late 2024",
-    title: "Mastering Core Foundations: Python & C",
-    institution: "KTU S1 Curriculum & Self-Directed Labs",
-    description:
-      "Deepened foundational problem-solving abilities, algorithm complexity analysis, and pointer arithmetic in C, paired with rapid application development in Python.",
-    badge: "Foundation",
-  },
-  {
     year: "2024 — 2025",
-    period: "Early 2025",
-    title: "Venturing into Data Science & Machine Learning",
-    institution: "Online Certifications & Independent Projects",
+    period: "Semester 1 & 2",
+    title: "Mastering Core Foundations: Python & C++",
+    institution: "KTU Curriculum & Practical Labs",
     description:
-      "Built intuition for linear regression, clustering, decision trees, and exploratory data analysis using NumPy, Pandas, and scikit-learn on real-world datasets.",
-    badge: "Specialization",
-  },
-  {
-    year: "2025",
-    period: "Mid 2025",
-    title: "Modern Web Engineering with React & Tailwind",
-    institution: "Fullstack Exploration",
-    description:
-      "Recognized that powerful AI models require intuitive interfaces. Mastered component-driven frontend architecture, responsive design, and smooth animations.",
-    badge: "Frontend & UI",
+      "Deepened foundational problem-solving abilities, algorithm complexity analysis, and programming fundamentals in Python and C++.",
+    badge: "Foundation",
   },
   {
     year: "Present",
     period: "Ongoing",
-    title: "Building Intelligent Autonomous Systems",
-    institution: "Academic & Open Source Endeavors",
+    title: "Academic & Practical Exploration in AI",
+    institution: "Thejus Engineering College, Thrissur (KTU)",
     description:
-      "Exploring neural network architectures, participating in hackathons, and developing intelligent software tools that assist students and communities.",
+      "Pursuing coursework and exploring computational intelligence, mathematics, and software development fundamentals.",
     badge: "Current Focus",
   },
 ];
