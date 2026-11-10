@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p1Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020A3A" />
+      <stop offset="100%" stop-color="#1E1B4B" />
+    </linearGradient>
+    <linearGradient id="accent1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#818CF8" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="380" rx="20" fill="url(#p1Grad)" />
+  <circle cx="500" cy="80" r="120" fill="#38BDF8" opacity="0.12" filter="blur(40px)" />
+  
+  <!-- Browser / UI Mockup Container -->
+  <g transform="translate(40, 40)">
+    <rect width="520" height="300" rx="14" fill="#0B132B" stroke="rgba(255,255,255,0.1)" stroke-width="1.5" />
+    <!-- Header dots -->
+    <circle cx="24" cy="22" r="5" fill="#EF4444" />
+    <circle cx="40" cy="22" r="5" fill="#F59E0B" />
+    <circle cx="56" cy="22" r="5" fill="#10B981" />
+    <rect x="90" y="14" width="220" height="16" rx="8" fill="rgba(255,255,255,0.08)" />
+
+    <!-- AI Learning Dashboard Cards -->
+    <rect x="24" y="55" width="220" height="100" rx="10" fill="rgba(56, 189, 248, 0.12)" stroke="rgba(56, 189, 248, 0.3)" />
+    <text x="40" y="85" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#38BDF8">SmartEdu AI Engine</text>
+    <text x="40" y="105" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94A3B8">NLP Syllabus Summarizer</text>
+    <rect x="40" y="125" width="160" height="6" rx="3" fill="rgba(255,255,255,0.15)" />
+    <rect x="40" y="125" width="120" height="6" rx="3" fill="url(#accent1)" />
+
+    <rect x="260" y="55" width="235" height="100" rx="10" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)" />
+    <text x="278" y="85" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#E2E8F0">Concept Mastery</text>
+    <text x="278" y="105" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94A3B8">Active Recall: 92%</text>
+
+    <!-- Interactive Quiz Simulator -->
+    <rect x="24" y="175" width="471" height="100" rx="10" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" />
+    <text x="40" y="205" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#F8FAFC">Q: What is the primary role of backpropagation?</text>
+    <rect x="40" y="222" width="200" height="28" rx="6" fill="#1E293B" stroke="#38BDF8" />
+    <text x="52" y="241" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#38BDF8">Compute Gradient Vector</text>
+    <rect x="255" y="222" width="200" height="28" rx="6" fill="#1E293B" stroke="rgba(255,255,255,0.1)" />
+    <text x="267" y="241" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94A3B8">Forward Pass Weights</text>
+  </g>
+</svg>
+

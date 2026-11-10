@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="40%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#020A3A" />
+    </linearGradient>
+    <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="50%" stop-color="#818CF8" />
+      <stop offset="100%" stop-color="#C084FC" />
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0" />
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="30" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="600" height="700" rx="36" fill="url(#bgGrad)" />
+
+  <!-- Ambient Glow Circles -->
+  <circle cx="300" cy="240" r="180" fill="url(#glowGrad)" filter="url(#softGlow)" />
+  <circle cx="480" cy="550" r="140" fill="#38BDF8" opacity="0.1" filter="url(#softGlow)" />
+  <circle cx="120" cy="580" r="120" fill="#818CF8" opacity="0.12" filter="url(#softGlow)" />
+
+  <!-- Abstract Tech Grid Lines -->
+  <g stroke="rgba(255,255,255,0.06)" stroke-width="1.5">
+    <line x1="80" y1="100" x2="520" y2="100" />
+    <line x1="80" y1="200" x2="520" y2="200" />
+    <line x1="80" y1="300" x2="520" y2="300" />
+    <line x1="80" y1="400" x2="520" y2="400" />
+    <line x1="80" y1="500" x2="520" y2="500" />
+    <line x1="80" y1="600" x2="520" y2="600" />
+    
+    <line x1="160" y1="60" x2="160" y2="640" />
+    <line x1="300" y1="60" x2="300" y2="640" />
+    <line x1="440" y1="60" x2="440" y2="640" />
+  </g>
+
+  <!-- Stylized Elegant Portrait Silhouette -->
+  <g transform="translate(0, 40)">
+    <!-- Head / Face Silhouette -->
+    <circle cx="300" cy="220" r="85" fill="#F1F5F9" />
+    <!-- Hair Contour -->
+    <path d="M 215 220 C 215 130 250 110 300 110 C 350 110 385 130 385 220 C 385 190 360 145 300 145 C 240 145 215 190 215 220 Z" fill="#0F172A" />
+    <path d="M 215 200 C 210 260 220 310 240 330 C 235 290 230 240 235 200 Z" fill="#0F172A" opacity="0.9" />
+    <path d="M 385 200 C 390 260 380 310 360 330 C 365 290 370 240 365 200 Z" fill="#0F172A" opacity="0.9" />
+
+    <!-- Glasses/Tech Spectacles (subtle nod to academic & AI) -->
+    <rect x="245" y="200" width="45" height="32" rx="10" fill="none" stroke="#0F172A" stroke-width="4" />
+    <rect x="310" y="200" width="45" height="32" rx="10" fill="none" stroke="#0F172A" stroke-width="4" />
+    <line x1="290" y1="214" x2="310" y2="214" stroke="#0F172A" stroke-width="4" />
+    
+    <!-- Torso / Shoulders with modern collegiate jacket -->
+    <path d="M 160 520 C 170 380 230 350 300 350 C 370 350 430 380 440 520 Z" fill="#1E293B" />
+    <!-- Shirt Collar / V-neck -->
+    <polygon points="265,350 335,350 300,420" fill="#F8FAFC" />
+    <path d="M 265 350 L 300 440 L 335 350" stroke="#CBD5E1" stroke-width="2" fill="none" />
+  </g>
+
+  <!-- Floating Badge: AI & KTU Engineering -->
+  <g transform="translate(180, 570)">
+    <rect width="240" height="56" rx="28" fill="rgba(15, 23, 42, 0.85)" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1.5" backdrop-filter="blur(10px)" />
+    <circle cx="36" cy="28" r="10" fill="#38BDF8" />
+    <circle cx="36" cy="28" r="4" fill="#020A3A" />
+    <text x="64" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#F8FAFC">CSE (AI) SPECIALIST</text>
+    <text x="64" y="42" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="500" fill="#94A3B8">Thejus Engineering • KTU</text>
+  </g>
+
+  <!-- Aesthetic Code Orbit Badge -->
+  <g transform="translate(420, 110)">
+    <rect width="130" height="42" rx="21" fill="rgba(255, 255, 255, 0.08)" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1" />
+    <text x="65" y="26" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#38BDF8" text-anchor="middle">&lt;coder /&gt;</text>
+  </g>
+</svg>
+
