@@ -2,6 +2,7 @@ import { useLenis } from './hooks/useLenis';
 import { useTheme } from './hooks/useTheme';
 import CustomCursor from './components/common/CustomCursor';
 import ScrollProgress from './components/common/ScrollProgress';
+import BackgroundGlow from './components/common/BackgroundGlow';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 import Hero from './components/sections/Hero';
@@ -23,6 +24,9 @@ export default function App() {
     <div className="min-h-screen bg-ice-100 dark:bg-slate-950 text-slate-800 dark:text-slate-100 transition-colors duration-300 relative selection:bg-sky-500 selection:text-white">
       {/* Desktop Magnetic Follower Cursor */}
       <CustomCursor />
+
+      {/* Atmospheric Cursor Glow & Mesh */}
+      <BackgroundGlow />
 
       {/* Top Fixed Scroll Progress */}
       <ScrollProgress />
