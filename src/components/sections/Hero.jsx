@@ -164,7 +164,7 @@ export default function Hero() {
                 </div>
                 <div>
                   <div className="text-[10px] text-slate-400 uppercase tracking-wider font-mono">Specialization</div>
-                  <div className="text-xs font-bold text-sky-200">Neural Networks &amp; ML</div>
+                  <div className="text-xs font-bold text-sky-200">Artificial Intelligence</div>
                 </div>
               </motion.div>
 
@@ -290,7 +290,7 @@ export default function Hero() {
               <span className="text-white/20">•</span>
               <div className="flex items-center gap-1.5">
                 <Sparkles className="w-4 h-4 text-indigo-400" />
-                <span>AI &amp; Machine Learning</span>
+                <span>Artificial Intelligence</span>
               </div>
               <span className="text-white/20 hidden sm:inline">•</span>
               <div className="text-slate-300 hidden sm:inline">

@@ -13,7 +13,7 @@ export const personalData = {
   roleItalic: "First-year CSE (AI) Student",
   heroHeadline: "Shape the future with code and curiosity",
   heroDescription:
-    "First-year Computer Science & Engineering student specializing in Artificial Intelligence at Thejus Engineering College, Thrissur. Passionate about machine learning, algorithmic problem solving, and crafting high-performance, elegant software.",
+    "First-year Computer Science & Engineering student specializing in Artificial Intelligence at Thejus Engineering College, Thrissur. Passionate about artificial intelligence, algorithmic problem solving, and crafting high-performance, elegant software.",
 
   // Contact & Social Details (Replace with your actual URLs)
   email: "devananda.cclab@gmail.com",
@@ -63,8 +63,8 @@ export const aboutData = {
   intro:
     "I am an enthusiastic first-year B.Tech undergraduate in Computer Science and Engineering with a focused specialization in Artificial Intelligence at Thejus Engineering College, Thrissur (affiliated with KTU).",
   paragraphs: [
-    "My journey into technology began with a fascination for how mathematical patterns and algorithms can teach computers to perceive, learn, and solve real-world problems. Today, I balance foundational computer science theory with hands-on development in Python, data science, and modern web architectures.",
-    "When I'm not writing code or experimenting with machine learning pipelines, you will find me participating in tech communities, exploring open-source projects, and reading research papers on modern artificial intelligence developments.",
+    "My journey into technology began with a fascination for how mathematical patterns and algorithms can teach computers to perceive, learn, and solve real-world problems. Today, I balance foundational computer science theory with hands-on development in Python, C++, and artificial intelligence fundamentals.",
+    "When I'm not writing code or studying algorithms, you will find me participating in tech communities, exploring open-source projects, and reading research papers on modern artificial intelligence developments.",
   ],
   education: {
     degree: "Bachelor of Technology (B.Tech)",
@@ -93,7 +93,7 @@ export const aboutData = {
     },
     {
       title: "AI Specialization Track",
-      desc: "Deep diving early into machine learning, data engineering, and modern neural architectures.",
+      desc: "Deep diving early into artificial intelligence, data structures, and algorithmic problem solving.",
     },
   ],
 };
