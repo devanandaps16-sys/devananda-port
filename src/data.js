@@ -16,7 +16,7 @@ export const personalData = {
     "First-year Computer Science & Engineering student specializing in Artificial Intelligence at Thejus Engineering College, Thrissur. Passionate about artificial intelligence, algorithmic problem solving, and crafting high-performance, elegant software.",
 
   // Contact & Social Details (Replace with your actual URLs)
-  email: "devananda.cclab@gmail.com",
+  email: "devanandaps16@gmail.com",
   github: "https://github.com/devanandaps16-sys",
   linkedin: "https://linkedin.com/in/devananda-ai",
   location: "Thrissur, Kerala, India",
@@ -214,13 +214,13 @@ export const blogData = [
 export const contactInfo = {
   heading: "Let's Build Something Meaningful",
   subheading: "Have a project in mind, an internship opportunity, or just want to chat about AI?",
-  email: "devananda.cclab@gmail.com",
+  email: "devanandaps16@gmail.com",
   phone: "+91 98765 43210", // Placeholder
   location: "Thrissur, Kerala, India",
   college: "Thejus Engineering College, KTU",
   socials: [
     { name: "GitHub", href: "https://github.com/devanandaps16-sys", icon: "Github" },
     { name: "LinkedIn", href: "https://linkedin.com/in/devananda-ai", icon: "Linkedin" },
-    { name: "Email", href: "mailto:devananda.cclab@gmail.com", icon: "Mail" },
+    { name: "Email", href: "mailto:devanandaps16@gmail.com", icon: "Mail" },
   ],
 };
