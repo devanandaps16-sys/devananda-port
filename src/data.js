@@ -22,7 +22,7 @@ export const personalData = {
   location: "Thrissur, Kerala, India",
   college: "Thejus Engineering College, Thrissur",
   university: "APJ Abdul Kalam Technological University (KTU)",
-  batch: "2024 — 2028",
+  batch: "2026 — 2030",
   degree: "B.Tech in Computer Science & Engineering (AI Specialization)",
   resumeUrl: "#", // Add link to your CV/Resume PDF in /public or Google Drive
   portraitImage: "/images/portrait.jpg",
@@ -72,7 +72,7 @@ export const aboutData = {
     college: "Thejus Engineering College",
     location: "Vellarakkad, Thrissur, Kerala",
     university: "APJ Abdul Kalam Technological University (KTU)",
-    duration: "2024 — 2028",
+    duration: "2026 — 2030",
     status: "First Year (Semester 1 & 2)",
     coursework: [
       "Problem Solving & Programming in Python",
@@ -170,8 +170,8 @@ export const projectsData = [
 
 export const journeyData = [
   {
-    year: "2024",
-    period: "Mid 2024",
+    year: "2026",
+    period: "Mid 2026",
     title: "Admitted to B.Tech in CSE (AI)",
     institution: "Thejus Engineering College, Thrissur (KTU)",
     description:
@@ -179,7 +179,7 @@ export const journeyData = [
     badge: "Milestone",
   },
   {
-    year: "2024 — 2025",
+    year: "2026 — 2027",
     period: "Semester 1 & 2",
     title: "Mastering Core Foundations: Python & C++",
     institution: "KTU Curriculum & Practical Labs",
@@ -204,7 +204,7 @@ export const blogData = [
     title: "Why I Chose CSE with AI Specialization in KTU: My First Semester Reflections",
     excerpt:
       "Navigating college life, balancing rigorous university coursework with hands-on open-source building, and why early domain specialization matters.",
-    date: "Jan 2025",
+    date: "2026",
     readTime: "4 min read",
     category: "Campus & Career",
     tags: ["KTU", "College Life", "Computer Science"],
