@@ -73,7 +73,7 @@ export default function Hero() {
                 <img
                   src={personalData.portraitImage}
                   alt={`${personalData.name} - Portrait`}
-                  className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                  className="w-full h-full object-cover object-[center_25%] transition-transform duration-700 ease-out group-hover:scale-105"
                   loading="eager"
                 />
 

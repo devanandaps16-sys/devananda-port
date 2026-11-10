@@ -25,7 +25,7 @@ export const personalData = {
   batch: "2024 — 2028",
   degree: "B.Tech in Computer Science & Engineering (AI Specialization)",
   resumeUrl: "#", // Add link to your CV/Resume PDF in /public or Google Drive
-  portraitImage: "/images/portrait.svg",
+  portraitImage: "/images/portrait.jpg",
 };
 
 export const navLinks = [
